@@ -1,0 +1,35 @@
+div#registration_validation,
+div#login_validation {
+    color : red ;
+    clear: both;
+}
+
+div.keystone_registration,
+div.keystone_login,
+div.keystone_registration form#keystone_registration_form input.reg_input{
+    width:100%;
+    margin-top: 5px;
+}
+
+div.keystone_registration form#keystone_registration_form label,
+div.keystone_login form#keystone_login_form label{
+    width:100%;
+}
+
+
+div.keystone_login form#keystone_login_form input.log_input{
+    width:60%;
+    margin-top: 5px;
+}
+
+div.keystone_registration form p{
+    float : left;
+    width:45%;
+    margin-left : 2%; 
+}
+
+div.keystone_registration form p.submit,
+div.keystone_registration form p.forgetmenot{
+	width: 100%;
+    clear:both;
+}
